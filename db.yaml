@@ -11,7 +11,7 @@ configMap:
 secret:
 - envName: SPRING_DATASOURCE_PASSWORD
   secretName: db-password
-  secretKey: anypassword
+  secretKey: password
   
 ingress:
   enabled: false
